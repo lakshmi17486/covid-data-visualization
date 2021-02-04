@@ -26,7 +26,6 @@
         />
       </div>
     </div>
-
     <div class="row mt-5" v-if="arrInIcu.length > 0">
       <div class="col">
         <h2 class="text-center">In ICU</h2>
@@ -92,7 +91,6 @@ export default {
       arrOnVentilators: [],
       arrRecovered: [],
       arrDeaths: [],
-
       chartOptions: {
         responsive: true,
         maintainAspectRatio: false,
